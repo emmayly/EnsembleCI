@@ -127,9 +127,5 @@ if __name__ == "__main__":
     df.to_csv(output_name, index=False)
 
     print(getScore(actual_datas_96, predicted_datas_96))
-
-    with open('output_results/fixed_new_design.txt', 'a') as file:
-        file.write(f'{saved_model_name}\n')
-        file.write(f'{getScore(actual_datas_96, predicted_datas_96)}\n')
         
     
