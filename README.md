@@ -49,8 +49,9 @@ Europe:
 ## Citing EnsembleCI
 If you use EnsembleCI, please consider citing our paper. The BibTex format is as follows:
 
-`@inproceedings{ensembleCI2025,
-title = {EnsembleCI: Ensemble Learning for Carbon Intensity Forecasting},
+```bibtext
+@inproceedings{ensembleCI2025,
+  title = {EnsembleCI: Ensemble Learning for Carbon Intensity Forecasting},
   author = {Yan, Leyi and Wang, Linda and Liu, Sihang and Ding, Yi},
   booktitle = {Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems},
   year = {2025},
